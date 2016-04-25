@@ -1,10 +1,12 @@
 # Author @patriciogv and @glennon 2015/2016
-# note: add your Tangram API key at the end of line 7
+# note: 
+# add your Tangram API key at the end of line 7.
+# the included key is mapzen's example key.
 
 sources:
     osm:
         type: TopoJSON
-        url:  //vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=
+        url:  //vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-HqUVidw
 cameras:
     perspective:
         type: perspective
